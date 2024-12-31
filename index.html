@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Ano Novo</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        Feliz Ano Novo!
+    </header>
+    <main>
+        <section class="mensagem">
+            <h1>Eu te amo.</h1>
+            <p>Jamais imaginei que poderia me apaixonar tanto quanto sou por você. Desde o dia 12/02/23, minha vida tomou um rumo incrível, e sou imensamente grato por ter você ao meu lado.
+
+                Que este ano seja repleto de conquistas para nós e que continuemos a crescer juntos. Sei que desafios virão, mas tenho a certeza de que, unidos, podemos superar qualquer obstáculo. Eu te amo..</p>
+        </section>
+        <section class="galeria">
+            <h2>Galeria de Imagens</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="img/imagem-andes01.jpg" alt="Imagem 1" onclick="showHearts(this)">
+                    <button onclick="showDescription('desc1', this)">Ver Descrição</button>
+                    <div id="desc1" class="description">feliz</div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/imagem-andes02.jpg" alt="Imagem 2" onclick="showHearts(this)">
+                    <button onclick="showDescription('desc2', this)">Ver Descrição</button>
+                    <div id="desc2" class="description">ano</div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/imagem-andes03.jpg" alt="Imagem 3" onclick="showHearts(this)">
+                    <button onclick="showDescription('desc3', this)">Ver Descrição</button>
+                    <div id="desc3" class="description">novo</div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/imagem-andes04.jpg" alt="Imagem 4" onclick="showHearts(this)">
+                    <button onclick="showDescription('desc4', this)">Ver Descrição</button>
+                    <div id="desc4" class="description">eu</div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/imagem-andes05.jpg" alt="Imagem 5" onclick="showHearts(this)">
+                    <button onclick="showDescription('desc5', this)">Ver Descrição</button>
+                    <div id="desc5" class="description">te</div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/imagem-andes06.jpg" alt="Imagem 6" onclick="showHearts(this)">
+                    <button onclick="showDescription('desc6', this)">Ver Descrição</button>
+                    <div id="desc6" class="description">amo</div>
+                </div>
+                <!-- Adicione mais itens conforme necessário -->
+            </div>
+        </section>
+        
+
+        <section class="linha-do-tempo">
+            <h2>Linha do Tempo</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">03/09</div>
+                    <div class="timeline-content">Nosso Primeiro Beijo</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">24/11</div>
+                    <div class="timeline-content">Dia que a gente começou a ficar serio</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">12/02</div>
+                    <div class="timeline-content">Nossa data especial, onde começamos a namorar</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="desenvolvido">Desenvolvido por João Motta</p>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
